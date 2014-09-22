@@ -1,0 +1,30 @@
+{
+  "name": "entity-schema-validate",
+  "version": "0.0.0",
+  "description": "validate objects based on entity schemas",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openappjs/entity-schema-validate.git"
+  },
+  "author": "ahdinosaur",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/openappjs/entity-schema-validate/issues"
+  },
+  "homepage": "https://github.com/openappjs/entity-schema-validate",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "entity-schema": "git://github.com/openappjs/entity-schema",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "jjv": "^1.0.2"
+  }
+}
